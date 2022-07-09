@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Cinzel&family=Diplomata+SC&family=Lobster+Two&family=Noto+Serif&family=Quintessential&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #faa0a6;
+  font-family: "Quintessential", cursive;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.im {
+  width: 50px;
+  height: 50px;
+  padding-top: 4px;
+  padding-left: 0px;
+}
+nav ul li {
+  margin: 0 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: darkblue;
+  cursor: pointer;
+}
+a:hover {
+  color: red;
+}
+header {
+  width: 100vw;
+  height: 30vh;
+  background-color: black;
+  color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bio-block {
+  display: flex;
+}
+.bio-block p {
+  font-size: large;
+  padding-bottom: 12px;
+}
+.bio-block img {
+  width: 100px;
+  height: 100px;
+  padding: 90px 60px;
+  justify-content: center;
+  border-radius: 50%;
+}
+.portfolio {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+.portfolio h3 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio h5 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+  font-size: 1em;
+}
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#skills-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+#skills-container ul {
+  text-decoration: none;
+  list-style: none;
+  justify-content: flex-start;
+}
+#contact {
+  background-color: rgb(32, 29, 29);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-around;
+}
+.input {
+  line-height: 2em;
+  width: 400px;
+  border-radius: 3px;
+  border-color: black;
+  margin: 20px 0;
+}
+.edu {
+  width: 30px;
+  height: 30px;
+  padding: 10px 30px 2px 30px;
+}
+.lec {
+  width: 30px;
+  height: 30px;
+  padding: 10px 30px 2px 30px;
+}
+.sk {
+  width: 30px;
+  height: 30px;
+  padding: 10px 30px 2px 30px;
+}
